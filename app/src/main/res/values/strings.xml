@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Score_Counter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+ <!-- Strings do Fragment_Initial -->
+    <string name="ini_fragment">Criar Usuário</string>
+    <string name="userName_label">Nome:</string>
+    <string name="idade_label">Idade:</string>
+    <string name="foto_label">Foto:</string>
+    <string name="saveProfile_label">Salvar Perfil</string>
+
+ <!--Strings do Fragment_Profile -->
+    <string name="profile_fragment">Perfil</string>
+
+
+</resources>

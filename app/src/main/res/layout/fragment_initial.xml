@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.softwares.gee.score_counter.Initial">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/ini_fragment" android:id="@+id/titleText"
+        android:layout_centerHorizontal = "true"/>
+    <TextView
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/userName_label" android:id="@+id/username_label"
+        android:layout_below="@id/titleText" android:layout_alignLeft="@+id/username_EditText"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_label"
+        android:layout_centerHorizontal="true"
+        android:id="@id/username_EditText" android:hint="user_name"
+        />
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/idade_label" android:id="@+id/idade_label"
+            android:layout_below="@id/username_EditText" android:layout_alignLeft="@id/username_EditText"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idade_label"
+            android:layout_alignLeft="@id/username_EditText"
+            android:id="@+id/idade_EditText" android:hint="idade"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveProfile_Button" android:text="@string/saveProfile_label"
+            android:layout_below="@id/idade_EditText"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+</FrameLayout>
